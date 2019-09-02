@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>HTML form</h2>
+<form>
+ first name<br>
+<input type="text" name="firstname"> <br>
+last name<br>
+<input type="text" name="firstname"><br>
+<p>another type of the form</p><br>
+ 
+<form>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female" checked> Male<br>
+<input type="radio" name="gender" value="Trans" checked> Male<br>
+
+
+</form>
+
+</body>
+</html>
