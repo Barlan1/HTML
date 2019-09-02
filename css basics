@@ -1,0 +1,13 @@
+body{
+background-color:#236B8E;
+}
+h1{
+color: navy;
+margin-left: 50px;
+}
+div{
+background-color:Turquoise;
+}
+p2{
+border:2px solid DodgerBlue;
+}
