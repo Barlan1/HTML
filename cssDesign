@@ -1,0 +1,29 @@
+body{
+background-image:url("https://scontent-maa2-1.xx.fbcdn.net/v/t1.0-9/35198971_1890566794298582_1145303654257917952_n.jpg?_nc_cat=0&oh=b93d8dfbc4badba0bfcf33be4991dfef&oe=5BEDE6E2 ");
+  
+    background-position: right top; margin-right: 20px; background-attachment: fixed;
+font-size:23px;
+}
+h1 {
+background-color:SlateBlue;
+color: Yellow;
+margin-left:50px;
+ 
+
+}
+h2{  
+ 
+color: yellow;
+margin-left: 60px;
+}
+div {
+   background-color:lightblue;
+}
+#para1 {
+
+color: brown;
+font family:times;
+font-size:20px;
+text-align: center;
+
+}
