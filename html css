@@ -1,0 +1,35 @@
+<!DOCKTYPE html>
+<html>
+<head>
+<title>Barlan World</title>
+<style>
+body{
+background-color: #8C7853;
+}
+h1{
+color: #5F9F9F;
+tect-align: center;
+}
+h2{
+color:#FF7F00 ;
+text align: right;
+}
+#para1 {
+text-align: center;
+font-family:times;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<h1>Welcome to Barlan World</h1>
+<h2>Things that we serve you</h2>
+<ul>
+<li>tea</li><li>coffe</li><li>food</li>
+</ul>
+<p id="para1">like comment and share us on </p>
+<li>facebook</li><li>twitter</li>
+<p>our motto is to serve you </p>
+<p>do not wate food</p>
+</body>
+</html>
