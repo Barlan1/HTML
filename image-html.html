@@ -4,20 +4,92 @@
   <title>Youtube.com clone</title>
 
   <style>
-         .thumbnails{
-            width: 300px;
-         }   
-         .search-bar{
-            font-size:20px;
+         
+        
+         .search-bar1{
+            font-size:14px;
+            border-radius: 8px;
+            border-style: solid;;
             margin-left:12px;
+            display: block;
+            padding:12px;
+            margin:4px;
+            
          }
+         .search-bar2{
+            border-radius: 32px;
+            font-size:14px;
+            border:none;
+            box-shadow:2px 2px 2px #ddd;
+            padding-right: 100px;
+            padding: 12px;
+            display: block;
+ 
+         }
+         .search-bar3{
+            font-size:20px;
+            display: block;
+            margin-top: 0px;
+            padding-left: 12px;
+            padding-top: 12px;
+            padding-right: 12px;
+            padding-right: 12px;
+            box-shadow: 0px 1px 5px(0,0,0,0.25);
+         }
+         .search-bar4{
+            font-size:14px;
+            border:none;
+            padding:8px;
+            width: 300px;
+            vertical-align: middle;
+
+         }
+         .thumbnail-6{
+        width:50px;
+        height:50px;
+        object-fit:cover;
+        object-position:center;
+        vertical-align: middle;
+        margin:8px;
+        border-radius: 100%;
+
+    }
+    .tweet-button{
+      border:none;
+      border-radius: 32px;
+      background-color: rgb(7, 140, 218);
+      color:white;
+      font-weight: bold;
+      vertical-align: middle;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;  
+    }
+    .label{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
   </style>
 </head>
     <body>
-          <img class="thumbnails" src="images/coding.webp">
-        
-          <input class="search-bar" type="text" placeholder="search">
+          <input class="search-bar1" type="text" 
+          placeholder="search">
 
+          <input class="search-bar2" type="text" 
+          placeholder="Search Google or type a URL">
+          <p></p>
+
+           <P class="label" >  email</P>
+          <input class="search-bar3" type="text" >
+<p></p>
+          <div class="myDiv">
+          <p>  <span><img class="thumbnail-6" src="images/coding.webp"></span>
+          <span><input class="search-bar4" type="text" 
+          placeholder="What's happening?"> </span> 
+          <span> <button class="tweet-button"> tweet</button></span>
+          </p>
+         </div>
 
     </body>
 </html>        
