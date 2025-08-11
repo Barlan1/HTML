@@ -1,5 +1,6 @@
 
 <p id ="demo" ></p>
+<p id="Temo"></p>
 <script>
 
  const a= new Map([
@@ -18,8 +19,23 @@ console.log(Array.from(a)[0]);
 
 for( const [key, value] of a ){
   console.log(`Name is ${key} and age is ${value}`);
+
+ //creating new Map with set method
+const m= new Map();
+m.set("Jayesh", 23);
+m.set("Mahesh", 45);
+m.set("Ramesh", 56);
+
+let text= " ";
+m.forEach (function(first , second) {
+  text += first + ' = ' + second + "<br>"
+})
+
+document.getElementById("Temo").innerHTML = text;
+
 }
 
  
+
 
 </script>
