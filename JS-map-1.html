@@ -1,0 +1,25 @@
+
+<p id ="demo" ></p>
+<script>
+
+ const a= new Map([
+  ["vikas", 31], ["Yogita", 23],["Sujoy", 44]
+ ]);
+
+ const name=a.get("Yogita");
+
+ //to disply on web page this is HTML
+document.getElementById("demo").innerHTML="Age of Yogita  is "+ name;
+
+// to show key pair value;
+console.log(Array.from(a)[0]);
+ 
+// printing with for loop
+
+for( const [key, value] of a ){
+  console.log(`Name is ${key} and age is ${value}`);
+}
+
+ 
+
+</script>
