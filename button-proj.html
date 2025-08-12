@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Show Count </p>
+<Button id="demo">Cart</button>
+<script>
+ 
+ let count=0;
+ function myfun(){
+  count++;
+  document.getElementById("demo").innerHTML=count;
+ }
+
+ function mylessfun(){
+  if(count>0){ 
+  count= count-1;
+  }
+  document.getElementById("demo").innerHTML=count;
+ }
+ </script>
+ <button  onclick=" myfun();
+   ">Add to Cart </button>
+ 
+ <button onclick="mylessfun();
+    ">Remove from Cart</button>
+</body>
+
+
+</html>
