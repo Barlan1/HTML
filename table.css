@@ -1,0 +1,30 @@
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid rgb(201, 183, 183);
+  text-align: left;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+tbody:nth-child(even) {
+  background-color: #dddddd;
+}
+
+thead{
+  color:rgba(116, 108, 43, 0.829);
+}
+tbody{
+  color: rgb(62, 13, 68);
+}
+
+tfoot{
+  height: 80px;
+  color: brown;
+  vertical-align:bottom;
+}
