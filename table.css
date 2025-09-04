@@ -11,7 +11,9 @@ td, th {
   border-collapse: collapse;
   padding: 8px;
 }
-
+tr:hover{
+  background-color: rgba(166, 241, 235, 0.836);
+}
 tbody:nth-child(even) {
   background-color: #dddddd;
 }
@@ -27,4 +29,5 @@ tfoot{
   height: 80px;
   color: brown;
   vertical-align:bottom;
+
 }
