@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1> Node list  adding color to paragraph and backgroundColor</h1>
+
+<h3>Let's play with CSS</h3>
+<p>This is a para  1</p>
+<p>This is a para 2</p>
+<p>This is a para 3</p>
+
+<p>This is a para 4</p>
+<div>
+    <p>This is a para 5</p>
+    <p>This is a para 6</p>
+<div>
+<script>
+
+const myNodeList= document.querySelectorAll("p");
+
+myNodeList[3];
+console.log(myNodeList[3]);
+console.log(myNodeList.length);
+
+function nodeColor(){
+   for(let i=0; i< myNodeList.length;i++){
+    if(i%2==0){
+      myNodeList[i].style.color="Green";
+    }
+    else{
+      myNodeList[i].style.backgroundColor="dodgerblue";
+
+    }
+  }
+}
+
+nodeColor();
+
+</script>
+
+</body>
+</html>
