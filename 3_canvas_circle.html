@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <h1>HTML 5 empty canvas</h1>
+  <body>
+ <canvas id="game" height="300" width="300"
+ style="border:0.3rem solid rgb(71, 224, 217)"></canvas>
+<script>
+const canvas= document.getElementById("game");
+const ctx= canvas.getContext("2d");
+ctx.fillStyle="gold";
+ctx.fillRect(140,30,40,40);
+
+ctx.beginPath()
+ctx.arc(200,200,50, 0, 2*Math.PI);//arc(x,y,r,startangle,endangle)
+ctx.stroke();
+
+</script>
+
+</body>
+</html>

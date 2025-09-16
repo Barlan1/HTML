@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <h1>HTML Canvas gradients</h1>
+  <p> createlinearGradient(x0(startpoint),y0(start),x1(end),y1(endpoint)) </p>
+  <p> addColorStop(0/1, color)</p>
+
+  <body>
+<canvas id="game" height="150" width="300"
+style="border:1rem solid rgb(231, 224, 224)"></canvas>
+
+<canvas id="abc" height="150" width="300"
+style="border:1rem solid rgb(231,224,244)"></canvas>
+
+<script>
+const canvas= document.getElementById("game");
+const ctx= canvas.getContext("2d");
+
+const cv= document.getElementById("abc");
+const c=cv.getContext("2d");
+
+const grad= ctx.createLinearGradient(0,0,280,0);
+grad.addColorStop(0,"lightblue");
+grad.addColorStop(0.5,"purple");
+grad.addColorStop(1,"lightyellow");
+
+ctx.fillStyle=grad;
+ctx.fillRect(10,10,280,130);
+
+const gr=c.createLinearGradient(0,0,0,100);
+gr.addColorStop(0,"red");
+gr.addColorStop(1,"blue");
+c.fillStyle=gr;
+c.fillRect(10,10,280,130);
+
+
+</script>
+
+
+</script>
+
+</body>
+</html>
