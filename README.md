@@ -106,7 +106,7 @@
     <nav>
       <a href="#home">About Me</a>
       <a href="#work">Work</a>
-      <a href="#proj">Projects</a>
+      <a href="https://github.com/Barlan1/vikas-portfolio">Projects</a>
       <a href="#resume">Resume</a>
     </nav> 
    
