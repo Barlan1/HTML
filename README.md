@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport"
            content="width=device-width, initial-scale=1.0">
@@ -20,6 +21,7 @@
       background-color: #f9f9f9;
       color: #333;
       }
+      
    nav{
       text-align: center;
       background-color: #353238 ;
@@ -32,10 +34,12 @@
     font-size: 18px;
     text-decoration: none;
    }
+      
    a:hover{
     background-color: #57545c;
     border-radius: 5px;
    }
+      
    header{
       text-align: center;
       padding: 40px 20px;
@@ -49,6 +53,7 @@
      padding: 20px;
      justify-content: center;
    }
+      
    .card{
     flex:1 1 300px;
     background: white;
@@ -56,16 +61,19 @@
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0,0,0.1);
    }
+      
    .card h3{
     margin-top:0;
     color:#2d2d2d;
    } 
+      
    .testimonials{
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap:15px;
     padding: 20px;
    }
+      
    .testimony{
     word-wrap: break-word;
     background: #ffffff;
@@ -75,6 +83,7 @@
     font-style: italic;
     box-shadow:0 1px 4px rgba(0, 0,0,0,0.1);
    }
+      
   footer{
     text-align: center;
     color:white;
@@ -82,13 +91,16 @@
     padding: 12px;
     margin-top: auto;
     }
+      
    @media(max-width: 768px){
     .testimonials{
       grid-template-columns: 1fr;
     }
    }
+      
   </style>
   </head>
+  
   <body>
     
     <nav>
