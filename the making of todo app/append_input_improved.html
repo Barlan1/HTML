@@ -1,0 +1,32 @@
+<!--crud approach to Append list of names-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  
+  <body>
+    <h2>The input method</h2>
+   
+     <input id="myInput" type="text" >
+     <button onclick="myfunction()">addInput</button>
+     <ul id="myList"></ul>
+  
+  <script> 
+  function myfunction(){
+
+   let input= document.getElementById("myInput");
+   let text= input.value.trim();
+   
+   if(text === "") { alert("please Enter Something"); return;}
+
+   let li= document.createElement("li");
+  
+   li.innerHTML=text;
+   
+    document.getElementById("myList").appendChild(li);
+
+   input.value= "";
+
+   }  
