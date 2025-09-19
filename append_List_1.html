@@ -1,0 +1,27 @@
+<!--Append list of names-->
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <body>
+    <h2>The append() method</h2>
+   
+  <ul id="myList"> Append here</ul>
+
+  <button onclick="myfunction()">Append</button>
+ 
+  <script>
+    function myfunction(){
+      let list= document.getElementById("myList");
+
+      let li= document.createElement("li");
+
+      li.innerHTML="I love Yogita";
+
+      list.appendChild(li);
+    }
+
+  </script>
+  </body>
+
+</html>
