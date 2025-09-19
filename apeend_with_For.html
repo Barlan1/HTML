@@ -1,0 +1,30 @@
+<!--Append list of names-->
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <body>
+    <h2>The append() method</h2>
+    <button onclick="myfunction()">Append</button>
+// append without pressing
+  <ul id="myList"> Append here</ul>
+  <script>
+    function myfunction(){
+    const name= ["Ram", "rohit", "Ajay", "Shayamraj"]
+    let list= document.getElementById("myList");
+
+     for( i=0; i < name.length; ++i){
+
+       let li= document.createElement("li");
+
+       li.innerHTML= name[i];
+
+       list.appendChild(li);
+
+     }
+    
+    }
+  </script>
+  </body>
+
+</html>
