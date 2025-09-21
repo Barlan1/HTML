@@ -1,16 +1,88 @@
 <style>
+  p{
+    font-family: Arial;
+    margin-top:0;
+    margin-bottom:0;
+  }
+.cat-card{
+  width:200px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  display:inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+ }
+
+.portrait-image{
+   width:200px;
+   height:200px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+.Name{
+  font:bold 18px Arial;
+  margin-left: 8px;
+  margin-bottom: 5px;
+
+}
+.friend-row{
+   margin-left: 8px;
+   margin-bottom: 10px;
+ }
+.mutual-image{
+  height:28px;
+  width:28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.data{
+  display:inline-block;
+  vertical-align: middle;
+  display: inline;
+  color:rgb(100, 100, 100);
+}
+.btn{
+  color:white;
+  background-color: rgb(66, 126, 255);
+  border-radius: 4px;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
 </style>
 
 
-<div class="container">
-  <div class="Cat-Card">
-    <div class="image-container">
-      <img class="image" src="images/cat_fox.jpg">
+   <div class="Cat-Card">
+      <img class="portrait-image" src="images/cat_fox.jpg">
+      <p class="Name">Oliver</p>
+      <div class="friend-row">
+        <img class="mutual-image" src="images/cat_fox.jpg">
+        <p class="data">3 mutual friends</p>
+      </div>
+       <button class="btn">Add Friend</button>
+   </div>
+
+   
+   <div class="Cat-Card">
+    <img class="portrait-image" src="images/cat_white.webp">
+    <p class="Name">Olivia</p>
+    <div class="friend-row">
+      <img class="mutual-image" src="images/cat_white.webp">
+      <p class="data">100 mutual friends</p>
     </div>
-    <div class="text-container">
-      <p class="Name"></p>
-    </div>
+     <button class="btn">Add Friend</button>
+ </div>
+ 
+ <div class="Cat-Card">
+  <img class="portrait-image" src="images/catgray.webp">
+  <p class="Name">Brandon</p>
+  <div class="friend-row">
+    <img class="mutual-image" src="images/catgray.webp">
+    <p class="data">29 mutual friends</p>
   </div>
-  <div class="Cat-Card"></div>
-  <div class="Cat-Card"></div>
+   <button class="btn">Add Friend</button>
 </div>
+  
+ 
